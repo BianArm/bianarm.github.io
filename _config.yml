@@ -4,6 +4,24 @@ description: >- # this means to ignore newlines until
   Welcome to my Jekyll-powered GitHub Pages site!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bianarm.github.io" # the base hostname & protocol for your site
-theme: minima
+
+# GitHub Pages configuration
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
