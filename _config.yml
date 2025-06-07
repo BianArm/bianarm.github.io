@@ -1,0 +1,9 @@
+title: bianarm.github.io
+email: your-email@example.com
+description: >- # this means to ignore newlines until
+  Welcome to my Jekyll-powered GitHub Pages site!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bianarm.github.io" # the base hostname & protocol for your site
+theme: minima
+plugins:
+  - jekyll-feed
