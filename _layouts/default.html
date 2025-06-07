@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
-    
+
     <!-- Basic CSS for styling -->
     <style>
       body {
@@ -29,11 +29,11 @@
       <h1><a href="/">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
     </div>
-    
+
     <main>
       {{ content }}
     </main>
-    
+
     <div class="footer">
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Powered by Jekyll & GitHub Pages.</p>
     </div>
